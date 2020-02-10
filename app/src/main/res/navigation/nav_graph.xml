@@ -38,6 +38,10 @@
         android:name="com.example.android.marsrealestate.detail.DetailFragment"
         android:label="fragment_detail"
         tools:layout="@layout/fragment_detail">
+        <argument
+            android:name="selectedProperty"
+            app:argType="com.example.android.marsrealestate.network.MarsProperty"/>
+        Build the project to generate the SafeArgs actions. Finish up the navigation to the Detail screen
     </fragment>
 
 </navigation>
